@@ -1,0 +1,51 @@
+/* App.css */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e6e6fa; /* Lavender background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #800080; /* Purple color for heading */
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px solid #800080; /* Purple border for input */
+}
+
+button {
+  border: 1px solid #800080; /* Purple border for button */
+  background: #d8bfd8; /* Thistle color for button background */
+  color: #4b0082; /* Indigo color for button text */
+}
+
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: #800000; /* Maroon color for specific buttons */
+  color: white;
+}
